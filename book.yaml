@@ -1,0 +1,214 @@
+title:
+    - it: Scribus
+toc:
+    - directory: introduction
+      level: 1
+      title:
+        it: Introduzione
+      status:
+        it: ""
+    - directory: introduction-requirements
+      level: 2
+      parent: introduction
+      title:
+        it: Prerequisiti
+      status:
+        it: ""
+    - directory: introduction-hands_on
+      level: 2
+      parent: introduction
+      title:
+        it: Iniziare con Scribus
+      status:
+        it: ""
+    - directory: introduction-examples
+      level: 2
+      parent: introduction
+      title:
+        it: Esempi di utilizzo
+      status:
+    - directory: introduction-about
+      level: 2
+      parent: introduction
+      title:
+        it: A proposito di questo libro
+      status:
+        it: ""
+    - directory: create
+      level: 1
+      title:
+        it: Creare
+      status:
+        it: ""
+    - directory: create-begin_at_the_end
+      level: 2
+      parent: create
+      title:
+        it: Cominciare dal risultato
+      status:
+        it: ""
+    - directory: create-editorial_and_graphical_workflows
+      level: 2
+      parent: create
+      title:
+        it: Il processo editoriale e grafico
+      status:
+        it: ""
+    - directory: create-planning_your_scribus_project
+      level: 2
+      parent: create
+      title:
+        it: Le fasi di lavoro con Scribus
+      status:
+        it: ""
+    - directory: create-preparing_your_sources
+      level: 2
+      parent: create
+      title:
+        it: Preparare i contenunti
+      status:
+        it: ""
+    - directory: create-document_format
+      level: 2
+      parent: create
+      title:
+        it: Formati
+      status:
+        it: ""
+    - directory: create-choosing_colors
+      level: 2
+      parent: create
+      title:
+        it: Scegliere i colori
+      status:
+        it: ""
+    - directory: create-selecting_fonts
+      level: 2
+      parent: create
+      title:
+        it: Scegliere i caratteri tipografici
+      status:
+        it: ""
+    - directory: organize
+      level: 1
+      title:
+        it: Organizzare
+      status:
+        it: ""
+    - directory: organize-organize_your_files
+      level: 2
+      parent: organize
+      title:
+        it: Organizzare gli archivi
+      status:
+        it: ""
+    - directory: organize-master_pages_guides_and_library
+      level: 2
+      parent: organize
+      title:
+        it: Pagine mastro, guide e biblioteche
+      status:
+        it: ""
+    - directory: organize-composing
+      level: 2
+      parent: organize
+      title:
+        it: La composizione
+      status:
+        it: ""
+    - directory: organize-styles
+      level: 2
+      parent: organize
+      title:
+        it: I fogli di stile
+      status:
+        it: ""
+    - directory: organize-scripter_and_scripts
+      level: 2
+      parent: organize
+      title:
+        it: Scripter e script
+      status:
+        it: ""
+    - directory: produce
+      level: 1
+      title:
+        it: Produrre
+      status:
+        it: ""
+    - directory: produce-importing_text_and_images
+      level: 2
+      parent: produce
+      title:
+        it: 
+      status:
+        it: ""
+    - directory: produce-typography
+      level: 2
+      parent: produce
+      title:
+        it: Le scelte tipografiche
+      status:
+        it: ""
+    - directory: produce-text_flow
+      level: 2
+      parent: produce
+      title:
+        it: Sagomare il testo
+      status:
+        it: ""
+    - directory: produce-color_management
+      level: 2
+      parent: produce
+      title:
+        it: Gestione dei colori
+      status:
+        it: ""
+    - directory: produce-quality_control
+      level: 2
+      parent: produce
+      title:
+        it: Controllo della qualità
+      status:
+        it: ""
+    - directory: produce-archiving_documents
+      level: 2
+      parent: produce
+      title:
+        it: Raggruppare per l'archiviazione
+      status:
+        it: ""
+    - directory: produce-final_output
+      level: 2
+      parent: produce
+      title:
+        it: 
+      status:
+        it: ""
+    - directory: appendix
+      level: 1
+      title:
+        it: Allegati
+      status:
+        it: ""
+    - directory: appendix-installation
+      level: 2
+      parent: appendix
+      title:
+        it: Installazione
+      status:
+        it: ""
+    - directory: appendix-frequent_problems
+      level: 2
+      parent: appendix
+      title:
+        it: Problemi ricorrenti
+      status:
+        it: ""
+    - directory: appendix-glossary
+      level: 2
+      parent: appendix
+      title:
+        it: Glossario
+      status:
+        it: ""

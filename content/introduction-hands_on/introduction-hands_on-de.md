@@ -218,7 +218,7 @@ make sure that there is no scaling
 - fonts include
 - pdf version (den drucker fragen sonst 1.4)
 
-# verweisen
+# verweisen auf...
 
 - flossmanual auf englisch
 - F1 hilfe

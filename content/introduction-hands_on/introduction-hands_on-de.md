@@ -1,193 +1,224 @@
 # Hands-on
 
-In this section we are going to take you through a short guided tour of Scribus. In seven steps you learn how to create a tri-fold brochure.
+Hier werden wir Scribus, in sieben Schritten vorstellen. Wir zeigen, wie man einen Flyer (Faltprospekt) herstellen kann.
 
-## Make a draft sketch of your document
+## Eine Handskizze des Dokumentes
 
-The first step takes place away from your computer – in a sense, since we are going to end up most often with a result on paper, we will begin by working with paper. To sketch your brochure, begin with a sheet of white office paper (A4 or US Letter), and fold it in thirds, so that it folds together as shown. Although in your actual brochure you might wish the inside flap to be slightly more narrow than the left front flap, so that it completely covers the inside flap when folded together, for this demonstration we are not going to bother with this precise detail.
+Wir beginnen nicht gleich am Computer, sondern machen zuerst eine Skizze auf Papier. Das meiste, das wir mit Scribus erstellen, wird anschliessend ja auf Papier ausgedruckt.
 
-Sketch some picture on the front flap, then check the result.
+Wir beginnen mit einem A4 Blatt und falzen das zweimal, so dass wir auf jeder Seite drei Flächen haben. Hier ist es wichtig zu wissen, dass die Seite, die dann nach innen gefalzt wird etwas schmaler sein soll, damit sie sich gut einpasst (wir berücksichtigen das allerdings in dieser Einführung nicht).
+
+Nun skizzieren wir einige grafische Elemente auf diese Titelseite: Ein Bild, ein Logo, einen Titel, so dass der Leser sofort weiss um was es geht.
 
 ![](images/sketch-01.jpg)
 
-Some comments:
+Einige Kommentare
 
-- At this early stage, feel free to make various drafts of your work, so that you can get the appearance of the brochure as you would like.
-- Work with a pencil, paper, and eraser – this is a sketch, not a piece of art. At this point you're mainly interesting in working quickly.
-- If you don't like what you've done at all, throw it away and start over.
+- In dieser frühen Phase lohnt es sich mehrere Skizzen anzufertigen bis der Entwurf so aussieht, wie man sich das vorstellt.
+- Man arbeitet mit Papier, Bleistift und Radiergummi – das ist ein Entwurf und kein Kunstwerk. Das Ziel ist so schnell wie Möglich eine Skizze zu erstellen.
+- Wirf einen Entwurf ruhig in den Papierkorb, wenn er nicht gefällt.
 
-Once you are satisfied with how the brochure works as a physical, folding object, you can begin to consider how you want to distribute the content on the various spaces on the flaps, front and back.
+Sobald es klar ist, wie die Leserichtung läuft, unter Berücksichtigung der Falze, soll der Inhalt, Text und Bild, auf die Seiten verteilt werden.
 
-In general, you will probably want to use the three internal spaces for your primary content, so that the layout of these will be a sequential succession, left to right.
+Üblicherweise werden die drei Innenseiten für die Hauptaussagen verwendet, so dass drei Spalten entstehen, die man einheitlich ansehen kann.
 
-For the three other pages/flaps (those on the outside of the folded brochure), each has its own considerations regarding its content:
+Die drei anderen Seiten (die Aussenseiten) haben in der Regel spezifische Aufgaben:
 
-- The front flap (which when unfolded will be the right-most panel of the page) will contain a large image, a title, and very brief indication of the brochure's content.
-- The middle panel will be the back of the folded brochure – we will use this for contact information.
-- The left panel is the one which is first seen as the brochure is opened – it will contain further information on the content, perhaps some sort of listing of the contents.
-In the images here below you can see how we have demarcated boxes or _frames_ with some indication of how text and images are arranged in the brochure panels:
+- Die rechte Spalte ist die Titelseite, sie entspricht in etwas der Skizze mit der wir angefangen haben. Das ist auch die wichtigste Seite, die Aufmerksamkeit auf meinen Prospekt zu fokussieren.
+- Die mittlere Spalte ist die Rückseite des Prospektes. Hier stehen normalerweise dieKontaktangaben.
+- Die linke Spalte ist die erste Seite, wenn der Prospekt geöffnet wird. Die kann man gut für Highlights.
 
-- You can see that we have simply drawn lines to indicate the text in the frames. You might alternatively write some notes which say something about the content of various frames.
-- Image frames are noted by drawing a cross (so that we know this is an image frame and not text), or you might place a simple sketch to denote a particular content.
+In den unten abgebildeten Bildern kann man sehen, wie solche Seiten skizziert werden:
+
+- Text wird mit Linien in Kästchen markiert. Eventuell kann darin geschrieben werden, was für in den Kästchen vorgesehen ist.
+- Bildfenster werden mit gekreuzten Kästchen markiert oder eine Skizze des Bildes.
 
 ![](images/sketch-02.jpg)
 
 ![](images/sketch-03.jpg)
 
-For this guided tour of Scribus we are proposing to create a brochure about Johannes Gutenberg, in relationship to his inventions regarding the printing press. We will be using images and text from the Wikipedia webpage on Gutenberg, which may be used under the Creative Commons licensing of their site.
+In dieser Einführung stellen wir eine Broschüre über Johannes Gutenberg her. Immerhin hat er in Europa ja die Buchdruckerkunst erfunden. Dazu werden wir Texte und Bilder von Wikipedia benutzen, die eine Creative Commons Lizenz unterstehen.
 
-## Create a new document
+## Ein neues Dokument erstellen
 
-When you start up Scribus, it presents you with a dialog for creating a new document. In case you may have closed this dialog, you can bring it up again with the menu _File > New_.
+Beim starten von Scribus wird ein Dialog gezeigt, womit ein neues Dokument erstellen werden kann. Falls es schon geschlossen wurde, kann er durch das Menü _Datei > Neues Dokument_ wieder gezeigt.
+
 
 ![](images/file-new.de.png)
 
-The document you are going to create will have the following characteristics:
+Unser heutiges Dokument hat folgende Charakteristiken:
 
-- The type of display is _Single Page_.
-- The size is _A4_.
-- Orientation is _Landscape_.
-- Make sure the units are _millimeters_, since the default may be points.
-- Create 2 pages, for each side of our A4 paper.
-- Choose margins of _1cm (10mm)_ to make sure we remain within the boundaries of where our printer can physically print on the paper.
+- Layout: _Einzelne Seite_.
+- Grösse: _A4_.
+- Ausrichtung: _Hochformat_.
+- Zwei Seiten, eine für jede Seite des Blattes
+- Die Standardmasseinheit soll _Millimeter_, denn oft steht beim erstmaligen Gebrauch «Punkte».
+- Ränder: Kette schliessen und  _1 cm_ eintippen (wird dann als 10 mm angezeigt). Das ist ein grosszügiges Rand, dass mit allen Drucker kompatibel ist.
 
-Other parameters should remain at default settings.
+Alle anderen Einstellungen so belassen wie sie sind.
 
-Click on OK to finally create this document.
+Nun auf OK klicken und das Dokument wird erstellt.
 
-Here you see, in a scaled down view, how your document appears in the main window:
+Hier sieht man den Aufbau der Scribus-Arbeitsfläche:
 
 ![](images/gui-label.de.png)
 
+Jetzt ist die Zeit, das Dokument abzuspeichern. Daher wird im Verzeichnis _Meine Dokumente_ ein Ordner _Scribus Gutenberg_ erstellt. Das Dokument wird dann mit einem aussagekräftigen Namen gespeichert.
 
-Now is the time to save your work. Create a directory _Scribus-Gutenberg/_ inside your Documents directory, then give your file a suitable name.
+## Hilfslinien erstellen
 
-## Define some guides
-
-You will be using guides to assist with the alignment of the content according to the folds of your brochure. In the menu, select _Page > Manage Guides_.
+Um ein genaues Arbeiten zu erleichtern, werden wir zuerst Hilfslinien erstellen, damit das Dokument die Falz-Struktur bekommt. Dazu wird das Menü _Seite > Hilfslinien bearbeiten_ angeklickt.
 
 ![](images/manage-guides.de.png)
 
+Im mittleren Reiter _Spalte / Zeile_ werden nun zwei vertikale Hilfslinien erstellt, mit einem Abstand von 2 cm. Der Abstand ist das Doppelte der Seitenränder. Um einheitlich breite Spalten zu bkeommen, soll die Option _relativ zu den Rändern_ gesetzt werden.
 
-Using the middle tab (Column/Row) you can create two vertical guides, with a space between them (Gap) of 2 cm. This value is double that of the margins, so that the content will be balanced in the various flaps.
+_Auf alle Seiten anwenden_ anklicken und das Hilfslinien-Manager schliessen. Auf der Arbeitsfläche werden diese 4 Linien in Rot angezeigt.
 
-Further, you want to define these guides with respect to the margins, not the page.
-
-Finally, click _Apply to All Pages_ and close the Guide Manager.
+Die Datei wieder mit _ctrl+s_ speichern.
 
 ![](images/preview.de.png)
 
+Nun stellen sie sicher, dass die Option _An Hilfslinien Ausrichten_ im _Seite_-Menü aktiv ist.  
+Falls die Sichtbarkeit der Hilfslinien kann über das Menü _Ansicht > Hilfslinien anzeigen_ gesteuert werden.
 
-If you do not see the guides, go to the menu and select _View > Show Guides_.
 
-## Write some text
+## Text schreiben
 
-In Scribus, you don't write directly on the page – first you create frames which will then contain the text. In general, most graphical elements are contained in frames. With these we can freely move all of our various elements around the pages.
+In Scribus wird der Text nicht direkt in die Seite eingegeben: zuerst werden Textrahmen eingefügt, in die der Text geschrieben oder geladen wird. Grafische Elemente werden meistens ebenfalls in Rahmen eingegeben. Damit können Elemente dann nach belieben auf den Seitenflächen verschoben werden.
 
-Go to the first page of your document. If necessary, use the slider at the bottom to position the cover flap in your workspace. You can also zoom your view by holding down Ctrl and running the mousewheel up and down while the mouse arrow is over the zoom indicator – quite easily done with this tool!
+Nun gehen wir zur ersten Seite des Dokumentes zur rechte Klappe. Wenn nötig muss man mit dem Scrollbalken die Arbeitsfläche etwas verschieben und mit der Lupe in der Statusleiste die Vergrösserungstufe an der Fenstergrösse anpassen.  
+Zwei Tipps: die Vergrösserung kann auch durch das gleizeitigen drucken der Ctrl-Taste und Drehen des Mausrades angepasst werden und mit dem drücken des Mausrad kann das Dokument in alle vier Richtungen verschoben werden.
 
-You can also move your page up and down, left and right, by holding down the middle button (or wheel), then dragging the mouse in the appropriate direction.
-
-Activate the text frame tool by clicking Insert > Insert Text Frame from the menu, or from the icon (which is the one just to the right of the white arrow icon on the toolbar, then make your text frame on the page with a click-drag-release action.
+Das Textrahmen-Werkzeug über das Menü _Einfügen > Textrahmen einfügen_ oder den ![](images/icon_textbearbeiten.png) Knopf in der Werkzeugbalken aktivieren und mit der Maus durch klicken und ziehen ein neuer Rahmen zeichnen.
 
 ![](images/text-frame.de.png)
 
-You can resize your frame by click-dragging the small red square at the lower right corner – resize it so that it can contain two lines of text: _Johannes Gutenberg_.
+Mittels Anklicken und ziehen des roten Viereck in der unteren Ecke des Rahmes verändern wir die Rahmengrösse bis der Titel _Johannes Gutenberg_ auf zwei Zeilen darin passt.
 
-Notice that after you have created your frame, Scribus automatically switches to Item Selection mode – the icon with the white arrow is selected in the toolbar – which allows you to select and move objects. If you wish to switch from some other tool in the toolbar, either click the Item Selection icon or press Esc.
+Sobald Der Rahmen gezeichnet ist, wechselt Scribus automatisch in den _Objekt auswählen_-Mode (das weisse Pfeil-Icon in der Werkzeugleiste), womit Objekte ausgewählt oder verschoben werden können. 
 
-Double-click inside the frame, and the various adjustment squares disappear, so that now you can type in Gutenberg's name (you are now in Edit Contents mode).
-
+Durch ein Doppelklick in den Textrahmen kann man Text eingeben. Sobald im Texteingabe-Modus, können wir Gutenbergs Name eingeben (das ist der Texteingabe-Modus).
 
 ![](images/text-typing.de.png)
 
-But your text is quite small isn't it? To change the size select all the text (if you are still in Edit Contents mode, from the menu select _Edit > Select All_), open the Properties palette (_Window > Properties_), select the Text tab, so that you can try various fonts and font characteristics, including the size of the characters (glyphs).
+Nun, man sieht, der Text ist ziemlich klein. Um die Schriftgrösse zu vergrössern, markiert man den ganzen Text (im Texteingabe-Modus durch das Menü _Bearbeiten > Alles auswählen_), dann die Eigenschaftspalette anzeigen (Menü _Fenster > Eigenschaften_) und den Reiter _Text_ aktivieren. Hier kann man nun unterschiedliche Schriften, Schriftfarbe und Grösse ausprobieren.
 
-If the lines are too close together, adjust the linespacing. In general, a minimum spacing of 20% greater than font size is advisable.
+Wenn durch die Grössenveränderung die Zeilen zu eng aneinander kleben, soll der _Feste Zeilenabstand_ ebenfalls vergrössert werden. Für den eigentlichen Inhaltstext ist ein Zeilenabstand von 120% der Schriftgrösse empfehlenswert.
 
-You can exit Edit Contents mode by clicking on the canvas outside the frame or by pressing Esc, and of course you can go back to Edit Contents by double-clicking inside the frame.
+Die Eigenschaftspalette ist die Schaltzentrale und kann mit der Funktiontaste F2 angezeigt und versteckt werden.
 
-## Add an Image
+![](images/text-properties-palette.de.png)
 
-The next step will be to place an image of Gutenberg's statue on the cover. Download this image from Wikimedia commons:
+Den Editiermodus verlässt man durch klicken ausserhalb des Rahmens oder auf der _Esc_-Taste drücken. Ein Doppelklick auf den Textrahmen führt uns zum Texteingabe-Modus zurück.
+
+## Bild einfügen
+
+Zunächst werden wir ein Bild einer Gutenberg-Statue auf der Titelseite einfügen. Das Bild kann von Wikimedia commons heruntergeladen werden:
 
 <http://commons.wikimedia.org/wiki/File:Statue_de_Gutenberg_à_Strasbourg.jpg>
 
-Make a directory images inside your directory _Scribus-Gutenberg_ and download the largest image (full resolution) into the images directory.
+Erstelle ein Unterverzeichnis _Bilder_ und lade die grösste Datei ("full resolution") hinein.
 
-Activate the image frame tool from the menu (_Insert > Insert Image Frame_) or click the Insert Image Frame icon from the toolbar, and then with a click-drag motion create an image frame on the cover of our brochure. 
+Das Bild-Werkzeug durch das Menü _Einfügen > Bildrahmen einfügen_ oder das Bild-Knopf in der Werkzeugliste aktivieren. Anschliessend mit der Maus einen Rahmen auf der Seite aufziehen.
 
 ![](images/image-frame.de.png)
 
-Make sure you have selected the image frame, then load the photo of the statue (which you should find in your directory Images inside your working directory for this project) by using _File > Import > Get Image_.
+Stelle sicher, dass der Bildrahmen aktiviert ist, dann das heruntergeladenen Bild duch das Menü _Datei > Importieren > Bild laden_ importieren.
 
-Most likely, your image appears all white – don't panic, this is the background of this image, and you're only seeing a small part of it! Bring up the Properties palette (_Windows > Properties_), select the _Image_ tab, and select the options _Scale To Frame Size_ and _Proportional_.
+Vermutlich sieht man nun lediglich eine weisse Fläche – nur keine Panik. Das ist der Himmel in der Linke Ecke! Um mehr als diesen kleinen Teil des Bildes zu sehen, die Eigenschaften-Fenster aufrufen (_F2_), die Gruppe _Bild_ öffnen und _An Rahmen anpassen_ sowie _Proportional_ wählen.
 
-By default, Scribus will import images according to their resolution as noted in the file. Since there isn't yet any information about the resolution you would like to use, Scribus simply loads the image at its maximum size.
+![](images/image-properties-palette.de.png)
 
-A quicker way to carry out this operation is to right-click on the image frame and select _Adjust Image to Frame_ from the context menu.
+Scribus lädt Bilder immer mit der Bildauflösung die in der Datei vermerkt. Falls keine definiert ist, benutzt Scribus als Default 72 dpi, was in unseren Fall zu ein übergrösses Bild führt.
 
-Next, adjust the image frame by right-clicking, then choosing _Adjust Frame to Image_, then move the frame so that it lines up with the left edge of the leaf:
+Eine Alternative ist mittels Rechtsklick im Bildrahmen und das Kontextmenü _Bild an Rahmen anpassen_ wählen.
+
+Anschliessend passt man noch den Rahmen am Bild an: in das _Objekt_ Menü im Kontextmenü die entsprechende Aktion wählen. Zum Schluss wird das Bild an die linke Hilfslinie geschoben.
 
 ![](images/image-load.de.png)
 
-With a click-drag operation on the small red square in the right lower corner of the frame, you can now resize the frame so that it fills the column created by the guide to the left and margin to the right.
+Wenn man nun die kleinen roten Eckpunkte auf der rechten Seite mit der Maus anwählt, kann man den Rahmen auf die Spaltenbreite vergrössern.
 
-## Import some text
+## Text einfügen
 
-As you will learn in this manual, Scribus is often not the best tool for composing text. In addition, much if not most of the time, you may be importing text written by others, or reusing text you have written for some other context.
+Es ist in der Regel besser Text ausserhalb Scribus zu erfassen. Meistens wird der Text von verschiedene Autoren auf unterschiedliche Computern verfasst.
 
- To simulate this situation, we will use a browser to go to the Wikipedia page about Gutenberg – <http://de.wikipedia.org/wiki/Johannes_Gutenberg> – and copy the section _Straßburger Jahre_, then open a text editor, create a new file, and paste the text from Wikipedia. Save the file in a new directory Text inside your working directory.
+Um das zu simulieren, verwenden wir einen Text über Gutenberg aus Wikipedia:
 
-Create a text frame in the Inside flap, being sure the fill the space to the margins and to the guide. Select the frame, then from the menu, _File > Import > Get Text_ to import the text you just saved in your file.
+<https://de.wikipedia.org/wiki/Johannes_Gutenberg>
 
-Use the instructions in the above section _Write some text_ to adjust the size of the title in this text frame.
+Wir kopieren den Teil "Herkunft und Jugend", dann öffnen einen Texteditor und erstellen eine neue Datei, wo wir den Text einfügen. Die Datei wird in einen neuen Unterordner namens _Text_ als _Junge-Jahre.txt_ abgespeichert.
+
+Nun erstellen wir ein Textrahmen in der linken Spalte der _Inner Flap_ der genau zwischen die Hilfslinien passt. Anschliessend importieren wir den gerade gespeicherten Text über das Menü _Datei > Importieren > Text laden_ .
+
+Mit den gleichen schritte wie im Abschnitt "Text schreiben" kann die Schriftgrösse vom Titel angepasst werden.
 
 ![](images/text-load.de.png)
 
-## Linking text frames
+## Textrahmen miteinander verknüpfen
 
- On the second page of your document, you are going to add some text which links across the three panels.
+Auf der zweiten Seite des Dokuments werden wir nun Text einfügen, der über alle drei Seiten läuft.
 
-Now let's apply a little trick – after you activate the text frame tool (_Insert > Insert Text Frame_), hold down Shift while you click inside the space for Content 1 – what you have done is to create a text frame which fills the space delimited by the margins and the guide. Repeat this for the other two panels on the second page. If you have trouble with this, you can simply create a text frame  and enlarge to the desired space – in this case, setting _Page > Snap to Guides_ can assist you in filling the space to its margins.
+Ein kleiner Trick: nach Aktivierung des Text-Werkzeuges (_Einfügen > Text einfügen_), die Hochstelltaste gedrückt halten und gleichzeitig mit der Maus in die Arbeitsfläche klicken: das erzeugte Rahmen füllt die umliegenden Hilfslinien. Das wird dann in den beiden anderen Spalten wiederholt. Oder man zieht selber in jeder Spalte einen Textrahmen auf: dafür ist _Seite > An Hilfslinien ausrichten_ eine wertvolle Hilfe.
 
-Now you have set up the layout, but you have no text. For our example we will use Sample Text – select the frame in the first panel, then Insert > Sample Text, and choose Standard Lorem Ispum.
+Nun ist das Layout erstellt – noch fehlt der Text. Wir wollen hier einen Mustertext anwenden. Den ersten Rahmen anklicken und durch das Menü _Einfügen > Beispieltext_ den "Standard Lorem Ipsum" wählen.
 
 ![](images/text-column.de.png)
 
-If you look in the lower right hand corner of the text frame you see a small red box with a cross, which indicates that the actual text is overflowing the frame. Make sure the first frame is selected, then click _Item > Link Text Frames_, then click the second frame. Now select the second frame, click _Item > Link Text Frames_, then click the third frame.
+Ganz unten rechts sieht man ein kleines rotes Quadrat mit einem X drin. Das zeigt an, dass nicht aller Text im Rahmen Platz hat. Zuerst wie stellen sicher, dass der erste Rahmen aktiv ist, dann das Werkzeug _Textrahmen verketten_ ![](images/icon_verketten.png) aktivieren und mit der Maus in den Rahmen auf Seite zwei klicken. Das dann für die dritte Spalte wiederholen : Seite zwei Auswählen, _Textrahmen verketten_ aktivieren und in der dritte Seite klicken.
 
 ![](images/text-link.de.png)
 
-Don't forget to save your work!
+Und wir sollte nicht vergessen unsere Arbeit regelmässig zu speichern!
 
-# The important toolbar elements
+## Herzliche Gratulation!
 
-Now that you've finished this little project, let's go over the main toolbar icons which you are likely to use in the composition of your documents.
+Das erste Layout ist geschafft. Sicher noch nicht perfekt, jedoch ein sehr guter Start mit Scribus.
 
-- Selection tool
-- Insert Text Frame
-- Insert Image Frame
-- Insert Render Frame
-- Insert Table
+Im realen Leben würde dieses Dokument nun als PDF exportiert. Das würde heute jedoch zu weit führen, dafür gibt es Tutorials, Foren, Facebook-Gruppen und auch – nicht zuletzt – einige sehr gute Anleitungsbücher.
+
+## The important toolbar elements
+
+
+- ![](images/icon_aktivieren.png) Selection tool
+- ![](images/icon_textrahmen.png) Insert Text Frame
+- ![](images/icon_bildrahmen.png) Insert Image Frame
+- ![](images/icon_rendern.png) Insert Render Frame
+- ![](images/icon_tabelle.png) Insert Table
 - Insert Shape 
-- Insert Polygon
-- Insert Line
-- Insert Bezier Curve
-- Insert Freehand Line
-- Rotate Item
-- Zoom
-- Edit Contents Mode
-- Story Editor
-- Link Text Frames
-- Unlink Text Frames
-- Measurement
-- Copy Properties
-- Color Picker
+- ![](images/icon_polygon.png) Insert Polygon
+- ![](images/icon_linie.png) Insert Line
+- ![](images/icon_bezierkurve.png) Insert Bezier Curve
+- ![](images/icon_freihandlinie.png) Insert Freehand Line
+- ![](images/icon_drehen.png) Rotate Item
+- ![](images/icon_zoom.png) Zoom
+- ![](images/icon_textbearbeiten.png) Edit Contents Mode
+- ![](images/icon_storyeditor.png) Story Editor
+- ![](images/icon_verketten.png) Link Text Frames
+- ![](images/icon_kette_loesen.png)Unlink Text Frames
+- ![](images/icon_abstandmesser.png) Measurement
+- ![](images/icon_zauberstab.png) Copy Properties
+- ![](images/icon_colorpicker.png) Color Picker
 
+## Weitere themen
 
-## Congratulations!
+## farben
 
-You have created your first layout. Certainly not perfect, but a good start!
+pipette vom bild auf titel
+- definition von der farbe anschauen
+- hintegrund / rand farben
+- text farbe
 
-When you have actually finished a layout, you would be exporting to PDF for printing or distribution, but at this stage this is a bit complex. As you continue through the manual, you will learn this and other various tasks to use Scribus to its full capabilities.
+## produce a pdf and print it
+
+make sure that there is no scaling
+- preflight verifier
+- screen / web
+- fonts include
+- pdf version (den drucker fragen sonst 1.4)
+
+# verweisen
+
+- flossmanual auf englisch
+- F1 hilfe

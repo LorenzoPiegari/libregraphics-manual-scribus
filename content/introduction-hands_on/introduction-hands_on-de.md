@@ -41,8 +41,7 @@ In dieser Einführung stellen wir eine Broschüre über Johannes Gutenberg her. 
 
 ## Ein neues Dokument erstellen
 
-Beim Scribus-Start wird ein Dialog gezeigt, womit ein neues Dokument erstellen werden kann. Falls es schon geschlossen wurde, kann er durch das Menü _Datei > Neues Dokument_ wieder angezeigt werden.
-
+Beim Scribus-Start wird ein Dialog gezeigt, womit ein neues Dokument erstellt werden kann. Falls dieser schon geschlossen wurde, kann er durch das Menü _Datei > Neues Dokument_ wieder angezeigt werden.
 
 ![](images/file-new.de.png)
 

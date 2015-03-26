@@ -172,7 +172,7 @@ Ganz unten rechts sieht man ein kleines rotes Quadrat mit einem X drin. Das zeig
 
 Und wieder nicht vergessen: regelmäßig speichern!
 
-## Gratulation!
+## Gratulieren!
 
 Das erste Layout ist geschafft. Sicher noch nicht perfekt, jedoch ein sehr guter Start mit Scribus.
 

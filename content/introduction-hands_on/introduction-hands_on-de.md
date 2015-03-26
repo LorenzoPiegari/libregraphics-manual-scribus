@@ -50,7 +50,7 @@ Unser heutiges Dokument hat folgende Charakteristiken:
 
 - Layout: _Einzelne Seite_
 - Größe: _A4_
-- Ausrichtung: _Hochformat_
+- Ausrichtung: _Querformat_
 - Zwei Seiten, eine für jede Seite des Blattes
 - Die Standardmaßeinheit soll _Millimeter_ sein, denn oft steht beim erstmaligen Gebrauch "Punkte".
 - Ränder: Kette schließen und  _1 cm_ eintippen (wird dann als 10 mm angezeigt). Das ist ein großzügiger Rand, der mit allen Druckern kompatibel ist.
@@ -130,7 +130,7 @@ Vermutlich sieht man nun lediglich eine weiße Fläche – nur keine Panik. Das 
 
 ![](images/image-properties-palette.de.png)
 
-Scribus lädt Bilder immer mit der Bildauflösung, die in der Bild-Datei vermerkt wurde. Falls keine definiert ist, benutzt Scribus als Default 72 dpi, was in unseren Fall zu einem übergroßen Bild führt. {wie können wir hier kurz und bündig erklären, dass es um einen import problem geht, aber das bild schon in die richtige grösse vorliegt?}
+Scribus lädt Bilder immer mit der Bildauflösung, die in der Bilddatei vorgegeben ist. Falls keine definiert ist, benutzt Scribus als Default 72 dpi, was in unseren Fall zu einem übergroßen Bild führt. {wie können wir hier kurz und bündig erklären, dass es um einen import problem geht, aber das bild schon in die richtige grösse vorliegt?}
 
 Eine Alternative ist, mittels Rechtsklick im Bildrahmen das Kontextmenü _Bild an Rahmen anpassen_ zu wählen.
 
@@ -150,7 +150,7 @@ Um das zu simulieren, verwenden wir einen Text über Gutenberg aus Wikipedia:
 
 Wir kopieren den Teil "Herkunft und Jugend", dann öffnen wir einen Texteditor und erstellen eine neue Datei, wo wir den Text einfügen. Die Datei wird in einem neuen Unterordner namens _Text_ als _Junge-Jahre.txt_ abgespeichert.
 
-Nun erstellen wir einen Textrahmen in der linken Spalte der _Inner Flap_, der genau zwischen die Hilfslinien passt. Anschliessend importieren wir den gerade gespeicherten Text über das Menü _Datei > Importieren > Text laden_.
+Nun erstellen wir einen Textrahmen in der linken Spalte der _inneren Klappe_, der genau zwischen die Hilfslinien passt. Anschliessend importieren wir den gerade gespeicherten Text über das Menü _Datei > Importieren > Text laden_.
 
 Mit den gleichen Schritten wie im Abschnitt "Text schreiben" kann die Schriftgröße vom Titel angepasst werden.
 
@@ -222,3 +222,7 @@ make sure that there is no scaling
 
 - flossmanual auf englisch
 - F1 hilfe
+
+# todo
+
+- in the picture set "innere Klappe" instead of "inner flap"

@@ -178,7 +178,7 @@ Das erste Layout ist geschafft. Sicher noch nicht perfekt, jedoch ein sehr guter
 
 Im realen Leben würde dieses Dokument nun als PDF exportiert. Das würde heute jedoch zu weit führen, dafür gibt es Tutorials, Foren, Facebook-Gruppen und auch – nicht zuletzt – einige sehr gute Anleitungsbücher.
 
-## The important toolbar elements
+## Wichtige Elemente der Werkzeugleiste
 
 
 - ![](images/icon_aktivieren.png) Objekt auswählen

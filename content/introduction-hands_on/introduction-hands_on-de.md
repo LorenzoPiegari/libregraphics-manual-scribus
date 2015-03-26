@@ -166,7 +166,7 @@ Nun ist das Layout erstellt – noch fehlt der Text. Wir wollen hier einen Muste
 
 ![](images/text-column.de.png)
 
-Ganz unten rechts sieht man ein kleines rotes Quadrat mit einem X drin. Das zeigt an, dass nicht der ganze Text im Rahmen Platz hat. Zuerst stellt man sicher, dass der erste Rahmen aktiv ist, dann das Werkzeug _Textrahmen verketten_ ![](images/icon_verketten.png) aktivieren und mit der Maus in den Rahmen auf der zweite Seite klicken. Das dann für die dritte Spalte wiederholen: Seite zwei auswählen, _Textrahmen verketten_ aktivieren und in der dritte Seite klicken.
+Ganz unten rechts sieht man ein kleines rotes Quadrat mit einem X drin. Das zeigt an, dass nicht der ganze Text im Rahmen Platz hat. Zuerst stellt man sicher, dass der erste Rahmen aktiv ist, dann das Werkzeug _Textrahmen verketten_ ![](images/icon_verketten.png) aktivieren und mit der Maus in den Rahmen in der zweite Spalte klicken. Das dann für die dritte Spalte wiederholen: spalte zwei auswählen, _Textrahmen verketten_ aktivieren und in der dritte Spalte klicken.
 
 ![](images/text-link.de.png)
 

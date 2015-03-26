@@ -184,7 +184,7 @@ Im realen Leben würde dieses Dokument nun als PDF exportiert. Das würde heute 
 - ![](images/icon_bildrahmen.png) Insert Image Frame
 - ![](images/icon_rendern.png) Insert Render Frame
 - ![](images/icon_tabelle.png) Insert Table
-- Insert Shape 
+- ![](images/icon_shape.png) Insert Shape 
 - ![](images/icon_polygon.png) Insert Polygon
 - ![](images/icon_linie.png) Insert Line
 - ![](images/icon_bezierkurve.png) Insert Bezier Curve

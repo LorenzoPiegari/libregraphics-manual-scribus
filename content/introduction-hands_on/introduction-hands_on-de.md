@@ -204,10 +204,21 @@ Im realen Leben würde dieses Dokument nun als PDF exportiert. Das würde heute 
 
 ## farben
 
-pipette vom bild auf titel
-- definition von der farbe anschauen
-- hintegrund / rand farben
-- text farbe
+- Eigenschaftspalette Wenig farben
+- Fast zu viele farben
+  - In ein Dokument, so wenige Farbe wie möglich gebrauchen
+  - Oft durch "Corporate Identity" bestimmt
+- Pipette vom Bild zum Titel
+- Farben in der Eigenschaftspalette: Rahmen, Hintegrund, Text
+- `Bearbeiten > Farben`
+  - Neu
+  - Importieren
+- RGB und CMYK: Generell, RGB gebrauchen
+  - Laser-/Tintenstrahldrucker erwarten RGB
+  - Fotos sind RGB
+  - Bildschirm ist nicht kalibriert und RGB
+  - So spät wie möglich in CMYK umwandeln (ausser du weisst was du machst!)
+  - Falls die Druckerei CMYK verlangt, ICC Farbprofile gebrauchen.
 
 ## produce a pdf and print it
 
